@@ -1,0 +1,142 @@
+/* ------------------- General Styles ------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0d6efd;
+}
+
+/* ------------------- Navbar ------------------- */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+/* ------------------- Hero Section ------------------- */
+.px-4.pt-5 {
+    background: linear-gradient(to right, #ffffff, #e9ecef);
+    padding-bottom: 60px !important;
+}
+
+.display-4 {
+    color: #0d6efd;
+}
+
+.lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Hero Image */
+.overflow-hidden img {
+    transition: transform 0.5s;
+}
+
+.overflow-hidden img:hover {
+    transform: scale(1.05);
+}
+
+/* ------------------- Features Section ------------------- */
+#featured-3 {
+    background-color: #ffffff;
+}
+
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 1rem;
+    background-color: #0d6efd;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 0.95rem;
+    color: #495057;
+}
+
+.feature a.icon-link {
+    font-weight: 500;
+    color: #0d6efd;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.feature a.icon-link:hover {
+    text-decoration: underline;
+}
+
+/* ------------------- Carousel ------------------- */
+.carousel-inner img {
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* ------------------- Footer ------------------- */
+footer {
+    background-color: #f1f3f5;
+}
+
+footer h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer ul li a {
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #0d6efd;
+}
+
+footer .text-body-secondary {
+    font-size: 0.9rem;
+}
